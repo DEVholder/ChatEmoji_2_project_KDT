@@ -1,10 +1,11 @@
 # main.py
-from fastapi import FastAPI, WebSocket
-from fastapi.middleware.cors import CORSMiddleware
 import uvicorn
 import logging
 import asyncio
+import os
 
+from fastapi import FastAPI, WebSocket
+from fastapi.middleware.cors import CORSMiddleware
 from utils.pre_sentence import sentence_processor
 from utils.model_process import compress_process, analyze_sentiment
 from utils.image_process
@@ -101,4 +102,4 @@ async def root():
 
 
 if __name__ == "__main__":
-    uvicorn.run("main:app", host="127.0.0.1", port=8000, reload=True)
+    uvicorn.run("main:app", host=os.getenv("SERVER"), port=os.getenv("SERVER_PORT"), reload=True)

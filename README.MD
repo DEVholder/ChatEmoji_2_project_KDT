@@ -6,21 +6,21 @@
 chat emoji는 실시간 1:1 채팅을 바탕으로 자신과 상대방의 감정을 표현하는 이미지를 생성하여 보여주는 서비스입니다.
 
 ## IA (Information Architecture)
-<img src="https://github.com/norebese/chat-image/blob/main/documents/readmeimg/IA.png" height="300">
+<img src="https://github.com/DEVholder/ChatEmoji_2_project_KDT/tree/main/documents/readmeimg/IA.png" height="300">
 
 ## 주요 기능 및 특징
 ### 메인화면
-<img src="https://github.com/norebese/chat-image/blob/main/documents/readmeimg/%EB%A9%94%EC%9D%B8%20%ED%99%94%EB%A9%B4.png" height="300">
+<img src="https://github.com/DEVholder/ChatEmoji_2_project_KDT/tree/main/documents/readmeimg/%EB%A9%94%EC%9D%B8%20%ED%99%94%EB%A9%B4.png" height="300">
 
 ### 채팅화면
-<img src="https://github.com/norebese/chat-image/blob/main/documents/readmeimg/%EC%B1%84%ED%8C%85%20%ED%99%94%EB%A9%B41.png" height="300">
-<img src="https://github.com/norebese/chat-image/blob/main/documents/readmeimg/%EC%B1%84%ED%8C%85%20%ED%99%94%EB%A9%B42.png" height="300">
-<img src="https://github.com/norebese/chat-image/blob/main/documents/readmeimg/%EC%B1%84%ED%8C%85%20%ED%99%94%EB%A9%B43.png" height="300">
-<img src="https://github.com/norebese/chat-image/blob/main/documents/readmeimg/%EC%B1%84%ED%8C%85%20%ED%99%94%EB%A9%B44.png" height="300">
+<img src="https://github.com/DEVholder/ChatEmoji_2_project_KDT/tree/main/documents/readmeimg/%EC%B1%84%ED%8C%85%20%ED%99%94%EB%A9%B41.png" height="300">
+<img src="https://github.com/DEVholder/ChatEmoji_2_project_KDT/tree/main/documents/readmeimg/%EC%B1%84%ED%8C%85%20%ED%99%94%EB%A9%B42.png" height="300">
+<img src="https://github.com/DEVholder/ChatEmoji_2_project_KDT/tree/main/documents/readmeimg/%EC%B1%84%ED%8C%85%20%ED%99%94%EB%A9%B43.png" height="300">
+<img src="https://github.com/DEVholder/ChatEmoji_2_project_KDT/tree/main/documents/readmeimg/%EC%B1%84%ED%8C%85%20%ED%99%94%EB%A9%B44.png" height="300">
 
 ### 모델 소개
-<img src="https://github.com/norebese/chat-image/blob/main/documents/readmeimg/Mecab.png" height="300">
-<img src="https://github.com/norebese/chat-image/blob/main/documents/readmeimg/KOTE.png" height="300">
+<img src="https://github.com/DEVholder/ChatEmoji_2_project_KDT/tree/main/documents/readmeimg/Mecab.png" height="300">
+<img src="https://github.com/DEVholder/ChatEmoji_2_project_KDT/tree/main/documents/readmeimg/KOTE.png" height="300">
 
 ## ⏱개발 기간
  * 2024년 7월 22일 ~ 2024년 8월 02일
@@ -33,7 +33,7 @@ chat emoji는 실시간 1:1 채팅을 바탕으로 자신과 상대방의 감정
 ## 개발 도구
 * 개발도구 : pycharm, VSC
 * 개발언어 및 프레임워크 : HTML, CSS, JavaScript, Jquery, fastapi, Websocket
-* API : fastapi, deepl_api, stable-diffusion-webui-api
+* API : deepl_api, stable-diffusion-webui-api
 * AI model: mecab 형태소 분석기, kote 감정 분석기
 
 `Communication`
@@ -74,8 +74,16 @@ chat emoji는 실시간 1:1 채팅을 바탕으로 자신과 상대방의 감정
     ```bash
     cd server
     ```
+5. .env 파일 생성
 
-5. 서버 시작하기:
+    ```bash
+    SERVER="127.0.0.1"
+    SERVER_PORT=8000
+
+    DEEPL_API_KEY='개인 DEEPL API KEY 입력'
+    STABLE_DEFFUSION_API_KEY='STABLE DEFFUSION 서버 주소 입력'
+    ```
+6. 서버 시작하기:
 
     ```bash
     python main.py
@@ -83,5 +91,5 @@ chat emoji는 실시간 1:1 채팅을 바탕으로 자신과 상대방의 감정
 
 ## 프론트엔드 실행하기
 
-1. `client` 폴더 위치에서 page.html 파일을 live server에서 실행합니다.
+1. `client` 디렉토리의 page.html 파일을 웹 브라우저로 실행
 

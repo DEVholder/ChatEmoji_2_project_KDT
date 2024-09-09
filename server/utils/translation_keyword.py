@@ -1,6 +1,5 @@
 import deepl
 import os
-from dotenv import load_dotenv
 
 # 예시 인풋
 #t1 = [{'label': '불평/불만', 'score': 0.7809296250343323}, {'label': '짜증', 'score': 0.8571460247039795}, {'label': '힘듦/지침', 'score': 0.7137463688850403}]
@@ -8,7 +7,7 @@ from dotenv import load_dotenv
 
 # env로드, 및 값을 불러와 할당
 load_dotenv()
-auth_key = os.getenv('DeepL_API_Key')
+auth_key = os.getenv('DEEPL_API_KEY')
 translator = deepl.Translator(auth_key)
 
 def deep_l(emotion_list,sentence,translator=translator) :
