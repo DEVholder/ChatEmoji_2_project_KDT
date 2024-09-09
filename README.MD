@@ -6,21 +6,21 @@
 chat emoji는 실시간 1:1 채팅을 바탕으로 자신과 상대방의 감정을 표현하는 이미지를 생성하여 보여주는 서비스입니다.
 
 ## IA (Information Architecture)
-<img src="https://github.com/DEVholder/ChatEmoji_2_project_KDT/tree/main/documents/readmeimg/IA.png" height="300">
+<img src="./documents/readmeimg/IA.png" height="300">
 
 ## 주요 기능 및 특징
 ### 메인화면
-<img src="https://github.com/DEVholder/ChatEmoji_2_project_KDT/tree/main/documents/readmeimg/%EB%A9%94%EC%9D%B8%20%ED%99%94%EB%A9%B4.png" height="300">
+<img src="./documents/readmeimg/%EB%A9%94%EC%9D%B8%20%ED%99%94%EB%A9%B4.png" height="300">
 
 ### 채팅화면
-<img src="https://github.com/DEVholder/ChatEmoji_2_project_KDT/tree/main/documents/readmeimg/%EC%B1%84%ED%8C%85%20%ED%99%94%EB%A9%B41.png" height="300">
-<img src="https://github.com/DEVholder/ChatEmoji_2_project_KDT/tree/main/documents/readmeimg/%EC%B1%84%ED%8C%85%20%ED%99%94%EB%A9%B42.png" height="300">
-<img src="https://github.com/DEVholder/ChatEmoji_2_project_KDT/tree/main/documents/readmeimg/%EC%B1%84%ED%8C%85%20%ED%99%94%EB%A9%B43.png" height="300">
-<img src="https://github.com/DEVholder/ChatEmoji_2_project_KDT/tree/main/documents/readmeimg/%EC%B1%84%ED%8C%85%20%ED%99%94%EB%A9%B44.png" height="300">
+<img src="./documents/readmeimg/%EC%B1%84%ED%8C%85%20%ED%99%94%EB%A9%B41.png" height="300">
+<img src="./documents/readmeimg/%EC%B1%84%ED%8C%85%20%ED%99%94%EB%A9%B42.png" height="300">
+<img src="./documents/readmeimg/%EC%B1%84%ED%8C%85%20%ED%99%94%EB%A9%B43.png" height="300">
+<img src="./documents/readmeimg/%EC%B1%84%ED%8C%85%20%ED%99%94%EB%A9%B44.png" height="300">
 
 ### 모델 소개
-<img src="https://github.com/DEVholder/ChatEmoji_2_project_KDT/tree/main/documents/readmeimg/Mecab.png" height="300">
-<img src="https://github.com/DEVholder/ChatEmoji_2_project_KDT/tree/main/documents/readmeimg/KOTE.png" height="300">
+<img src="./documents/readmeimg/Mecab.png" height="300">
+<img src="./documents/readmeimg/KOTE.png" height="300">
 
 ## ⏱개발 기간
  * 2024년 7월 22일 ~ 2024년 8월 02일
